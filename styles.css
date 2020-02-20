@@ -1,19 +1,21 @@
 body{
   margin: 0px;
+  position: relative;
 }
 
 .nav-bar{
   background-color: #e1f4f31c;
   text-decoration-color: white;
-  height: 30px;
+  height: 50px;
   position: absolute;
-  top: 10px;
+  top: 0.1px;
   width: 100%;
 }
 
 li{
 list-style-type: none;
 float: right;
+padding-top: 10px;
 padding-left: 20px;
 padding-right: 70px;
 font-size: 17px;
@@ -62,25 +64,35 @@ p{
   height: 100%
 
 }
+.buttons{
+  position: absolute;
+  bottom: 400px;
+  left: 5px;
+}
 
 .button{
-    width: 18%;
-    height: 35px;
+    width: 13rem;
+    height: 42px;
     position: absolute;
     top: 80%;
     left: 95px;
     border-width: 0px;
     background-color: #eb2f50;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .button2{
-    width: 18%;
-    height: 35px;
+    width: 13rem;
+    height: 42px;
     position: absolute;
     top: 80%;
     left: 320px;
     border-width: 0px;
     background-color: #e1d5d5
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .button:hover{
