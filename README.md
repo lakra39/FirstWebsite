@@ -5,7 +5,7 @@ See at a zoom of 125%
 
 ## Images
 
-![Testing Image]{images/airoplane.jpg}
+![Testing Image](images/airoplane.jpg)
 
 
 
